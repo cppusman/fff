@@ -32,14 +32,14 @@ body {
     height: 100%;
   }
   body {
-    min-height: 100vh;
-    background-image: url("images/bg.jpg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-color: transparent !important;
-  }
+  min-height: 100vh;
+  /* background-image: url("images/bg.jpg"); */
+  background-color: #ff0000 !important; /* ярко-красный для проверки */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
   
   /* Убираем отдельный фоновый div, он больше не нужен */
   .mobile-fixed-bg {
